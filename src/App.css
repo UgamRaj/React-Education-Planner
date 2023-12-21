@@ -1,38 +1,118 @@
+body {
+  background-color: #19161a;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.inputContainer {
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputContainer button {
+  background-color: #3b82f6;
+  border: none;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+h1 {
+  color: #4989a2;
+  font-size: 2.5rem;
+}
+
+input {
+  padding: 0.4rem;
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+  background-color: #19161a;
+  color: #fff;
+}
+
+.numInput {
+  width: 2.9rem;
+}
+
+.card {
+  margin-top: 1rem;
+  width: 24rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #1012108d;
+  color: #ffffffc6;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.card:hover {
+  box-shadow: 1px 0 40px #0c705e;
+}
+
+.cardRight {
+  display: flex;
+  align-items: center;
+}
+h5 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.inputContainer .deleteBtn {
+  background-color: #ef4444;
+}
+
+.btnContainer {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+img {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+img:active {
+  scale: 0.94;
+}
+
+button:active {
+  scale: 0.94;
+}
+
+.btnContainer button {
+  color: #fff;
+  cursor: pointer;
+  padding: 0rem 0.5rem;
+  margin-left: 0.7rem;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.increaseBtn {
+  background-color: #22c55e;
+}
+.decreaseBtn {
+  background-color: #ef4444;
 }
