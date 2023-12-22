@@ -2,6 +2,9 @@
 
 ## [Education Planner Link](https://geek-plat-planner-ugam.netlify.app/)
 
+![planner](https://github.com/UgamRaj/React-Education-Planner/assets/124122714/f0d8c8ec-2580-47ca-91cf-c30eedf25b38)
+
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
